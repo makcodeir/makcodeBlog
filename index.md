@@ -1,17 +1,8 @@
 ---
-title: Home
+title: Blog
 ---
 
-<script setup>
-import { onMounted } from 'vue'
-import { useRouter } from 'vitepress'
+# Blog
 
-const router = useRouter()
-
-onMounted(() => {
-  router.go('/posts/')
-})
-</script>
-
-در حال انتقال به وبلاگ...
+- [پست اول](/posts/firstPost)
 
