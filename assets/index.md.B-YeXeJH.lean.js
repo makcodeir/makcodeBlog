@@ -1,0 +1,1 @@
+import{_ as t,H as e,f as a,i as o}from"./chunks/framework.CrrulRN2.js";const k=JSON.parse('{"title":"Home","description":"","frontmatter":{"title":"Home"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function r(n,s,d,c,l,p){return e(),a("div",null,[...s[0]||(s[0]=[o("",1)])])}const h=t(i,[["render",r]]);export{k as __pageData,h as default};
