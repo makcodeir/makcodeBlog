@@ -1,0 +1,44 @@
+/* Importing a nice Vazirmatn font for better readability */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;400;700&display=swap');
+
+:root {
+  /* Setting the primary font family */
+  --vp-font-family-base: 'Vazirmatn', sans-serif;
+}
+
+/* Force RTL direction on the main content area */
+.vp-doc {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
+/* Fix list icons and blockquotes for RTL */
+.vp-doc ul, .vp-doc ol {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+.vp-doc blockquote {
+  border-right: 4px solid var(--vp-c-divider);
+  border-left: none;
+  margin-right: 0;
+  padding-right: 1rem;
+}
+
+/* Fix code blocks (usually should remain LTR for programming) */
+.vp-doc div[class*="language-"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Apply RTL to the entire layout including navbar */
+:root {
+  direction: rtl;
+}
+
+/* Keep code and English snippets LTR */
+code, pre, .vp-code-group {
+  direction: ltr !important;
+  text-align: left !important;
+}
