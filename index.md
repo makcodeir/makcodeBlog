@@ -9,7 +9,7 @@ title: Home
 <h1 class="mk-title">makcodeir</h1>
 <p class="mk-subtitle">سعی میکنم تجربه از فریمورک های مختلف رو اینجا قرار بدم ، پست ها رو در بخش زیر میتونید مشاهده کنید</p>
 <div class="mk-actions">
-<a class="mk-btn mk-btn-primary" href="makcodeBlog/posts/">مشاهده پست‌ها</a>
+<a class="mk-btn mk-btn-primary" href="./posts/">مشاهده پست‌ها</a>
 
 </div>
 </section>
@@ -19,7 +19,7 @@ title: Home
 <h2 class="mk-h2">پست‌ها</h2>
 <p class="mk-muted">آخرین نوشته‌ها و تجربه‌ها</p>
 </div>
-<a class="mk-post-card" href="makcodeBlog/posts/">
+<a class="mk-post-card" href="./posts/">
 <div class="mk-post-icon" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none">
 <path d="M8 7h8M8 11h8M8 15h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>

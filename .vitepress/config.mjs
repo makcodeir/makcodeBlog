@@ -40,5 +40,5 @@ export default defineConfig({
         items: getPostsSidebar()
       }
     ]
-  }
+  },base : "/makcodeBlog/"
 })
