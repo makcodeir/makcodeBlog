@@ -1,6 +1,6 @@
 # while loop
 
-Use `while` when iteration depends on a condition that may change.
+Use a `while` loop when repetition depends on a condition that may change while the loop runs.
 
 ## Example
 ```js

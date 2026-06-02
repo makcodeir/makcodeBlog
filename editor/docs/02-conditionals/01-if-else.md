@@ -1,6 +1,6 @@
 # if else
 
-Use `if`, `else if`, and `else` to run code based on conditions.
+Use `if`, `else if`, and `else` to run different code depending on whether conditions are true or false.
 
 ## Example
 ```js

@@ -1,40 +1,217 @@
 [
   {
-    "title": "1. Variables",
+    "title": "1. Variables and Scope",
     "children": [
       {
-        "title": "1.1 Let And Const",
+        "title": "1.1 let and const",
         "file": "editor/docs/01-variables/01-let-and-const.html"
       },
       {
-        "title": "1.2 Var Basics",
+        "title": "1.2 var basics",
         "file": "editor/docs/01-variables/02-var-basics.html"
+      },
+      {
+        "title": "1.3 scope",
+        "file": "editor/docs/01-variables/03-scope.html"
+      },
+      {
+        "title": "1.4 hoisting",
+        "file": "editor/docs/01-variables/04-hoisting.html"
       }
     ]
   },
   {
-    "title": "2. Conditionals",
+    "title": "2. Conditionals and Logic",
     "children": [
       {
-        "title": "2.1 If Else",
+        "title": "2.1 if else",
         "file": "editor/docs/02-conditionals/01-if-else.html"
       },
       {
-        "title": "2.2 Switch",
+        "title": "2.2 switch",
         "file": "editor/docs/02-conditionals/02-switch.html"
+      },
+      {
+        "title": "2.3 comparison operators",
+        "file": "editor/docs/02-conditionals/03-comparison-operators.html"
+      },
+      {
+        "title": "2.4 logical operators",
+        "file": "editor/docs/02-conditionals/04-logical-operators.html"
       }
     ]
   },
   {
-    "title": "3. Loops",
+    "title": "3. Loops and Iteration",
     "children": [
       {
-        "title": "3.1 For Loop",
+        "title": "3.1 for loop",
         "file": "editor/docs/03-loops/01-for-loop.html"
       },
       {
-        "title": "3.2 While Loop",
+        "title": "3.2 while loop",
         "file": "editor/docs/03-loops/02-while-loop.html"
+      },
+      {
+        "title": "3.3 for of loop",
+        "file": "editor/docs/03-loops/03-for-of-loop.html"
+      },
+      {
+        "title": "3.4 break and continue",
+        "file": "editor/docs/03-loops/04-break-and-continue.html"
+      }
+    ]
+  },
+  {
+    "title": "4. Functions",
+    "children": [
+      {
+        "title": "4.1 function declarations",
+        "file": "editor/docs/04-functions/01-function-declarations.html"
+      },
+      {
+        "title": "4.2 function expressions",
+        "file": "editor/docs/04-functions/02-function-expressions.html"
+      },
+      {
+        "title": "4.3 arrow functions",
+        "file": "editor/docs/04-functions/03-arrow-functions.html"
+      },
+      {
+        "title": "4.4 parameters and return",
+        "file": "editor/docs/04-functions/04-parameters-and-return.html"
+      }
+    ]
+  },
+  {
+    "title": "5. Data Types",
+    "children": [
+      {
+        "title": "5.1 primitives",
+        "file": "editor/docs/05-data-types/01-primitives.html"
+      },
+      {
+        "title": "5.2 typeof",
+        "file": "editor/docs/05-data-types/02-typeof.html"
+      },
+      {
+        "title": "5.3 type conversion",
+        "file": "editor/docs/05-data-types/03-type-conversion.html"
+      }
+    ]
+  },
+  {
+    "title": "6. Arrays",
+    "children": [
+      {
+        "title": "6.1 array basics",
+        "file": "editor/docs/06-arrays/01-array-basics.html"
+      },
+      {
+        "title": "6.2 array methods",
+        "file": "editor/docs/06-arrays/02-array-methods.html"
+      },
+      {
+        "title": "6.3 map filter reduce",
+        "file": "editor/docs/06-arrays/03-map-filter-reduce.html"
+      }
+    ]
+  },
+  {
+    "title": "7. Objects",
+    "children": [
+      {
+        "title": "7.1 object basics",
+        "file": "editor/docs/07-objects/01-object-basics.html"
+      },
+      {
+        "title": "7.2 methods and this",
+        "file": "editor/docs/07-objects/02-methods-and-this.html"
+      },
+      {
+        "title": "7.3 destructuring",
+        "file": "editor/docs/07-objects/03-destructuring.html"
+      }
+    ]
+  },
+  {
+    "title": "8. Strings",
+    "children": [
+      {
+        "title": "8.1 string basics",
+        "file": "editor/docs/08-strings/01-string-basics.html"
+      },
+      {
+        "title": "8.2 string methods",
+        "file": "editor/docs/08-strings/02-string-methods.html"
+      },
+      {
+        "title": "8.3 template literals",
+        "file": "editor/docs/08-strings/03-template-literals.html"
+      }
+    ]
+  },
+  {
+    "title": "9. Modern JavaScript",
+    "children": [
+      {
+        "title": "9.1 spread and rest",
+        "file": "editor/docs/09-modern-javascript/01-spread-and-rest.html"
+      },
+      {
+        "title": "9.2 modules",
+        "file": "editor/docs/09-modern-javascript/02-modules.html"
+      },
+      {
+        "title": "9.3 classes",
+        "file": "editor/docs/09-modern-javascript/03-classes.html"
+      }
+    ]
+  },
+  {
+    "title": "10. DOM Basics",
+    "children": [
+      {
+        "title": "10.1 selecting elements",
+        "file": "editor/docs/10-dom/01-selecting-elements.html"
+      },
+      {
+        "title": "10.2 changing content",
+        "file": "editor/docs/10-dom/02-changing-content.html"
+      },
+      {
+        "title": "10.3 events",
+        "file": "editor/docs/10-dom/03-events.html"
+      }
+    ]
+  },
+  {
+    "title": "11. Error Handling",
+    "children": [
+      {
+        "title": "11.1 try catch",
+        "file": "editor/docs/11-errors/01-try-catch.html"
+      },
+      {
+        "title": "11.2 throwing errors",
+        "file": "editor/docs/11-errors/02-throwing-errors.html"
+      }
+    ]
+  },
+  {
+    "title": "12. Asynchronous JavaScript",
+    "children": [
+      {
+        "title": "12.1 promises",
+        "file": "editor/docs/12-async/01-promises.html"
+      },
+      {
+        "title": "12.2 async await",
+        "file": "editor/docs/12-async/02-async-await.html"
+      },
+      {
+        "title": "12.3 fetch",
+        "file": "editor/docs/12-async/03-fetch.html"
       }
     ]
   }

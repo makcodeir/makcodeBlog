@@ -1,20 +1,16 @@
 # var basics
 
-`var` is function scoped and older than `let` and `const`.
-
-## Important notes
-- `var` can be redeclared in the same scope.
-- `var` is hoisted and initialized with `undefined`.
-- Prefer `let` and `const` in modern JavaScript.
+`var` is the older way to declare variables in JavaScript. It is function-scoped, can be redeclared, and is hoisted with an initial value of `undefined`.
 
 ## Example
 ```js
-function demo() {
+function showMessage() {
   if (true) {
-    var message = "Visible in whole function";
+    var message = "Visible inside the whole function";
   }
+
   console.log(message);
 }
 
-demo();
+showMessage();
 ```

@@ -1,11 +1,6 @@
 # let and const
 
-Use `let` for values that can change and `const` for values that should stay fixed.
-
-## Rules
-- `let` allows reassignment.
-- `const` does not allow reassignment.
-- Both `let` and `const` are block scoped.
+`let` and `const` declare block-scoped variables. Use `let` when a value needs to change, and use `const` when the variable should keep the same assignment.
 
 ## Example
 ```js
@@ -13,5 +8,7 @@ let score = 10;
 score = 15;
 
 const appName = "JS Editor";
-console.log(score, appName);
+
+console.log(score); // 15
+console.log(appName); // JS Editor
 ```

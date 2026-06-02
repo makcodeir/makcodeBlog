@@ -1,10 +1,6 @@
 # switch
 
-Use `switch` when comparing one value against many cases.
-
-## Tips
-- Use `break` to stop fallthrough.
-- Use `default` for unmatched cases.
+Use `switch` when one value needs to be compared against several possible cases. Add `break` to stop execution after a matching case.
 
 ## Example
 ```js
